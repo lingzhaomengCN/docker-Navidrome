@@ -32,7 +32,7 @@ services:
     restart: unless-stopped
 
     # Specify network
-    networks:
-      default:
-        name: my-main-net
-        external: true
+networks:
+  default:
+    name: my-main-net
+    external: true
